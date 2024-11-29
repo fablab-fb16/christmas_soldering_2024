@@ -11,13 +11,13 @@ Tools:
 2. esptool
 	- Installation mit: sudo pip install esptool (evtl. muss die Option --break-system-packages mit angegeben werden)
 
-### Für Anwender / Teilnehmer am Weihnachtslöten
+# Für Anwender / Teilnehmer am Weihnachtslöten
 1. ESP einstecken
 2. Bei der Aufforderung: "Flash ESP [y/n] " den Buchstaben "y" eingeben und Enter drücken
 3. Warte bis die Ausgabe: " Bitte notieren " gefolgt von deiner individuellen WLAN SSID und deinem Passwort erscheint. Bitte notiere dir die WLAN SSID. Nur so kannst du später dein ESP wiederfinden und weiter konfigurieren.
 Keine Sorge, wenn die Ausgabe schon verschwunden ist. Du kannst einfach nach oben scrollen, um deine WLAN SSID zu sehen.
 
-### Für Entwickler / Organisatoren
+# Für Entwickler / Organisatoren
 1. Stelle sicher, dass alle Voraussetzungen erfüllt sind
 2. Kopiere das Skript und die "firmware.bin" in ein beliebiges Verzeichnis.
 3. Mach das Skript ausführbar: sudo chmod +x ./InstallScriptChristmasSoldering.sh
@@ -43,13 +43,13 @@ Tools:
 2. esptool
 	- Installation with: sudo pip install esptool (you may need to specify the --break-system-packages option)
 
-### For users / participants in Christmas soldering
+# For users / participants in Christmas soldering
 1. plug in the ESP
 2. at the prompt: ‘Flash ESP [y/n] “ enter the letter ”y’ and press Enter
 3. wait until the message: ‘ Please note ’ appears followed by your individual WLAN SSID and your password. Please make a note of the WLAN SSID. This is the only way you can find your ESP again later and continue configuring it.
 Don't worry if the message has already disappeared. You can simply scroll up to see your WLAN SSID.
 
-### For developers / organisers
+# For developers / organisers
 1. make sure that all requirements are met
 2. copy the script and the ‘firmware.bin’ to any directory.
 3. make the script executable: sudo chmod +x ./InstallScriptChristmasSoldering.sh
