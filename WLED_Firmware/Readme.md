@@ -15,14 +15,14 @@ Tools:
 1. ESP einstecken
 2. Bei der Aufforderung: "Flash ESP [y/n] " den Buchstaben "y" eingeben und Enter drücken
 3. Warte bis die Ausgabe: " Bitte notieren " gefolgt von deiner individuellen WLAN SSID und deinem Passwort erscheint. Bitte notiere dir die WLAN SSID. Nur so kannst du später dein ESP wiederfinden und weiter konfigurieren.
-Keine Sorge, wenn die Ausgabe schon verschwunden ist. Du kannst einfach nach oben scrollen, um deine WLAN SSID zu sehen.
+Keine Sorge, wenn die Ausgabe verschwunden ist. Du kannst einfach nach oben scrollen, um deine WLAN SSID zu sehen.
 
 ### Für Entwickler / Organisatoren
 1. Stelle sicher, dass alle Voraussetzungen erfüllt sind
-2. Kopiere das Skript und die "firmware.bin" in ein beliebiges Verzeichnis.
-3. Mach das Skript ausführbar: sudo chmod +x ./InstallScriptChristmasSoldering.sh
+2. Kopiere das Skript und alle benötigten Binaries (bootloader.bin, partitions.bin, boot_app0.bin, firmware.bin) in ein beliebiges Verzeichnis.
+3. Wechsel in das Verzeichnis (cd /Pfad/zum/Verzeichnis) und mach das Skript ausführbar: sudo chmod +x ./InstallScriptChristmasSoldering.sh
 4. Starte das Skript mit root-Rechten: sudo ./InstallScriptChristmasSoldering.sh
-5. Optional den Pfad zur firmware.bin inklusive Dateiname und Dateiendung sowie den Port des ESP angeben. Wenn sich die firmware.bin im aktuellen Verzeichnis befindet, kann man das wahrscheinlich überspringen.
+5. Optional den Port des ESP angeben.
 
 ## Erstellung eigener Firmware
 1. Möglichkeit über die Standardinstallation
@@ -47,14 +47,14 @@ Tools:
 1. plug in the ESP
 2. at the prompt: ‘Flash ESP [y/n] “ enter the letter ”y’ and press Enter
 3. wait until the message: ‘ Please note ’ appears followed by your individual WLAN SSID and your password. Please make a note of the WLAN SSID. This is the only way you can find your ESP again later and continue configuring it.
-Don't worry if the message has already disappeared. You can simply scroll up to see your WLAN SSID.
+Don't worry if the message has disappeared. You can simply scroll up to see your WLAN SSID.
 
 ### For developers / organisers
 1. make sure that all requirements are met
-2. copy the script and the ‘firmware.bin’ to any directory.
-3. make the script executable: sudo chmod +x ./InstallScriptChristmasSoldering.sh
+2. copy the script and all required binaries (bootloader.bin, partitions.bin, boot_app0.bin, firmware.bin) to any directory.
+3. Change to the directory (cd /path/to/directory) and make the script executable: sudo chmod +x ./InstallScriptChristmasSoldering.sh
 4. start the script with root rights: sudo ./InstallScriptChristmasSoldering.sh
-5. optionally enter the path to firmware.bin including file name and file extension as well as the port of the ESP. If the firmware.bin is located in the current directory, you can probably skip this.
+5. optionally enter the port of the ESP. 
 
 ## Creating your own firmware
 1st option via the standard installation
