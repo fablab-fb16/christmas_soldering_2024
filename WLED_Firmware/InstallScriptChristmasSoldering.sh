@@ -7,8 +7,7 @@ if [[ $EUID -ne 0 ]]; then
 fi
 
 # Einmalige Abfrage des Pfads für die Firmware
-read -p "Bitte geben Sie den Pfad für die Firmware an [./firmware.bin]: " firmware_path
-firmware_path=${firmware_path:-./firmware.bin}
+echo "Bitte die benötigten Binaries im aktuellen Verzeichnis des Skriptes ablegen! (Benötigte Binaries: bootloader.bin, partitions.bin, boot_app0.bin, firmware.bin)"
 
 #Einmalige Abfrage des Geräte Ports
 read -p "Bitte geben Sie den Port des Gerätes ein [/dev/ttyACM0]: " dev_port
@@ -32,8 +31,9 @@ while true; do
         # Speicher löschen
         python3 -m esptool --port "$dev_port" erase_flash
         # Firmware flashen
-        python3 -m esptool --chip esp32c3 --port "$dev_port" --baud 460800 --before default_reset --after hard_reset write_flash -z --flash_mode dout --flash_freq 80m --flash_size 4MB 0x0 "$firmware_path"
-    else
+        # python3 -m esptool --chip esp32c3 --port "$dev_port" --baud 460800 --before default_reset --after hard_reset write_flash -z --flash_mode dout --flash_freq 80m --flash_size 4MB 0x0 "$firmware_path"
+        python3 -m esptool --port "$dev_port" --chip esp32c3 --port "$dev_port" --baud 460800 --before default_reset --after hard_reset write_flash -z --flash_mode dout --flash_freq 80m --flash_size 4MB 0x0000 ./bootloader.bin 0x8000 ./partitions.bin 0xe000 ./boot_app0.bin 0x10000 ./WLED_0.14.4_ESP32-C3.bin
+	else
         # Zurück zu Schritt 2
         continue
     fi
@@ -56,7 +56,7 @@ while true; do
     printf "%-45s%s\n" "****************************************"
     echo "$wlan_name"
     echo "Das Passwort ist: wled1234"
-    sleep 10
+    read -n 1 -s -r -p "Drücke eine beliebige Taste, um fortzufahren..."
 
     # Schritt 6: Ausgabe leeren
     terminal_lines=$(tput lines)
