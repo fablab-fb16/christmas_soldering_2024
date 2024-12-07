@@ -17,5 +17,5 @@ Find our custom .bin and more info here #tbd
 ## How to make your own from scratch and more Infos here
 
 - [Detaillierte Bauanleitung (DE)](/documentation/Build%20Instructions%20DE.pdf) als PDF
-- [Detailed Build Instructions (EN)](/documentation/Build%20Instructions.pdf) als PDF
+- [Detailed Build Instructions (EN)](/documentation/Build%20Instructions%20EN.pdf) als PDF
 - [How to Solder](/documentation/How%20to%20Solder.md)
