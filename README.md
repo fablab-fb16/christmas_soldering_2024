@@ -26,7 +26,7 @@ Find our custom `.bin` and more info here: **#tbd**
 
 Find step-by-step instructions and tips here:
 
-- [Detailed Assembly Instructions (DE)](/documentation/Build%20Instructions%20DE.md) / [as PDF (DE)](/documentation/PDFs/Build%20Instructions%20DE.pdf)
+- [Detailed Assembly Instructions (DE)](/documentation/Build%20Instructions%20DE.md) / [als PDF (DE)](/documentation/PDFs/Build%20Instructions%20DE.pdf)
 - [Detailed Assembly Instructions (EN)](/documentation/Build%20Instructions%20EN.md) / [as PDF (EN)](/documentation/PDFs/Build%20Instructions%20EN.pdf)
 - [How to Solder](/documentation/How%20to%20Solder.md)
 
