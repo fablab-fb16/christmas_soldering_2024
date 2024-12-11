@@ -2,3 +2,7 @@
 pcb_christmas_soldering_kit/christmas_soldering_kit_2024-backups/
 WLED_Firmware/label_printer/temp_label.png
 WLED_Firmware/label_printer/test_label.png
+
+pcb_christmas_soldering_kit/fp-info-cache
+
+pcb_christmas_soldering_kit/fp-lib-table
