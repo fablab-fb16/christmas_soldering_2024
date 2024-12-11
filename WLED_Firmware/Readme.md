@@ -30,11 +30,11 @@ Tools:
 5. Optional den Port des ESP angeben.
 
 ## Erstellung eigener Firmware
-1. Möglichkeit über die Standardinstallation (empfohlen)
+1. Möglichkeit über die Standardinstallation (empfohlen) <br>
 Für die Standard-Installation der WLED-Firmware gehe auf die Webseite: https://install.wled.me/ (in Microsoft Edge, Chrome oder einem anderen Chomium-basierten Browser) und folge den Installationsanweisungen.Um den Weihnachtsbaum richtig verwenden zu können, muss du auf der Konfigurationswebseite (die man erreicht, indem man sich mit dem WLAN Access Point des ESP verbindet und die Seite "http//4.3.2.1" im Browser aufruft) unter "Config" --> "LED Preferences" --> "Color Order" auf RGB und "Length" auf 11 stellen. Damit der Button bei kurzem Klick den Modus wechselt und bei langem Klick die LED's an/aus toggelt, folge bitte dieser Anleitung: https://kno.wled.ge/features/macros/
-2. Möglichkeit über Online-Konfigurator
+2. Möglichkeit über Online-Konfigurator <br>
 Es gibt einen Online Konfigurator, der von der Community zur Verfügung gestellt wird und mit dem man seine eigene WLED Firmware zusammenstellen kann. Dieser ist hier zu finden: https://wled-compile.github.io/. Hier kann man verschiedene Optionen an- und ausschalten und von der Community bereitgestellte Pakete installieren. Der Konfigurator verfügt auch über ein Installationstool, welches aus einem Browser (Microsoft Edge, Chrome oder einem anderen Chomium basierten Browser) heraus gestartet werden kann. (Alternativ siehe Möglichkeit 3)
-3. Möglichkeit über fertige Binarys (wird für das Weihnachtslöten 2024 verwendet)
+3. Möglichkeit über fertige Binarys (wird für das Weihnachtslöten 2024 verwendet) <br>
 Wenn du eine fertig kompilierte Binärdatei hast (z.B. über den Online Konfigurator oder wenn du deine eigene Binärdatei aus dem Quellcode gebaut hast), kannst du diese mit Hilfe des esptool auf deinem ESP installieren. Folge dazu folgender Anleitung https://kno.wled.ge/basics/install-binary/ oder verwende unser InstallScriptChristmasSoldering.sh. Hier musst du den Pfad zu deinem Binary und den Port des ESP angeben. Fertige Binaries findest du in diesem Ordner des Repositorys.
 
 ---------------------------------------------------------------------------
@@ -68,9 +68,9 @@ Tools:
 5. optionally enter the port of the ESP. 
 
 ## Creating your own firmware
-1. option via the standard installation (recommended)
+1. option via the standard installation (recommended) <br>
 For the standard installation of the WLED firmware, go to the website: https://install.wled.me/ (in Microsoft Edge, Chrome or another Chomium-based browser) and follow the installation instructions. To be able to use the Christmas tree correctly, you must go to the configuration website (which you can access by connecting to the ESP's WLAN access point and calling up the page ‘http//4.3.2.1’ in the browser) under ‘Config’ --> ‘LED Preferences’ --> ‘Colour Order’ and set ‘Length’ to RGB and 11. So that the button changes the mode with a short click and toggles the LEDs on/off with a long click, please follow these instructions: https://kno.wled.ge/features/macros/
-2. option via online configurator
+2. option via online configurator <br>
 There is an online configurator provided by the community that you can use to create your own WLED firmware. This can be found here: https://wled-compile.github.io/. Here you can switch various options on and off and install packages provided by the community. The configurator also has an installation tool that can be started from a browser (Microsoft Edge, Chrome or another Chomium-based browser). (Alternatively, see option 3)
-3. option via ready-made binaries (will be used for Christmas soldering 2024)
+3. option via ready-made binaries (will be used for Christmas soldering 2024) <br>
 If you have a fully compiled binary file (e.g. via the online configurator or if you have built your own binary file from the source code), you can install it on your ESP using the esptool. To do this, follow the instructions at https://kno.wled.ge/basics/install-binary/ or use our InstallScriptChristmasSoldering.sh. Here you must enter the path to your binary and the port of the ESP.
