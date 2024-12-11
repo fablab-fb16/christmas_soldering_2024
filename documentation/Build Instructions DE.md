@@ -23,7 +23,7 @@ Stell sicher, dass du alle folgenden Komponenten zur Hand hast, bevor du mit dem
 
 ### 1. Schritt: Vorbereitung der Platine
 
-Beginne mit der Vorbereitung der Platine. Stelle sicher, dass du die Komponenten entsprechend den Markierungen auf der Platine platzierst. 🛠️
+Beginne mit der Vorbereitung der Platine. Stelle sicher, dass du die Komponenten entsprechend den Beschriftungen auf der Platine platzierst. 🛠️
 
 ![Bild: Vorbereitung der Platine](/documentation/images/PCP.png)
 
@@ -31,11 +31,16 @@ Beginne mit der Vorbereitung der Platine. Stelle sicher, dass du die Komponenten
 
 ### 2. Schritt: Löten des Buttons
 
-Setze den Button an der vorgesehenen Stelle ein und löte ihn fest. 🔥 Du kannst den Button auch auf der Vorderseite der Platine platzieren, wenn du möchtest. In diesem Fall ist das der bessere Platz, da das USB-Kabel nicht vor dem Button liegt. Aber du kannst selbst entscheiden, wo du ihn platzierst. 😊
+Setze den Button an der vorgesehenen Stelle (SW1) ein und löte ihn fest. 🔥 
 
 <div style="display: flex; justify-content: space-around;">
   <img src="/documentation/images/Button_vorne.png" alt="Button vorne" width="200"/>
   <img src="/documentation/images/Button_hinten.png" alt="Button hinten" width="200"/>
+</div>
+
+Du kannst den Button auch auf der Vorderseite der Platine platzieren, wenn du möchtest. In diesem Fall ist das der bessere Platz, da das USB-Kabel nicht vor dem Button liegt. Aber du kannst selbst entscheiden, auf welche Seite du ihn platzierst. 😊
+
+<div style="display: flex; justify-content: space-around;">
   <img src="/documentation/images/Button_Platz.png" alt="Button Lötplatz" width="200"/>
   <img src="/documentation/images/Button_platziert.png" alt="Button richtig platziert" width="200"/>
 </div>
@@ -100,6 +105,6 @@ Nachdem du alle Komponenten erfolgreich gelötet hast, sollte deine Platine wie 
 
 Jetzt hast du das kleine Projekt erfolgreich abgeschlossen! Du kannst die Reihenfolge, in der die Lichter blinken, ändern, indem du einmal auf den Button klickst. Wenn du den Button lange drückst, kannst du die Lichter ein- und ausschalten. 💡
 
-Zusätzlich hat dein Weihnachtsbaum jetzt einen Access Point, mit dem du dich verbinden kannst. Über dein Handy kannst du die Lichter steuern und die Einstellungen ändern. 📱✨
+Zusätzlich hat dein Weihnachtsbaum jetzt einen Access Point "Wifi", mit dem du dich verbinden kannst. Über dein Handy kannst du die Lichter steuern und die Einstellungen ändern. 📱✨
 
 ---
