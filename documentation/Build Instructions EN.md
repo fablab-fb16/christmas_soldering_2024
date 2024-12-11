@@ -1,16 +1,14 @@
-# Soldering Evening Christmas 2024 - Build Instructions
+# Christmas Soldering Workshop 2024 - Build Instructions
 
-Welcome to our soldering evening for Christmas 2024! In this tutorial, we will solder together a 
-PCB with an ESP32, LEDs, and a button. It's a great opportunity to learn more about electronics 
-and soldering as we create a festive project that doubles as a Christmas tree.
+Welcome to our Christmas Soldering Workshop 2024! 🎄 In this guide, we will solder a PCB with an ESP32, LEDs, and a button together. It’s a great opportunity to learn more about electronics and soldering while creating a festive project that also functions as a Christmas tree. ✨
 
 ---
 
 ## Required Components
 
-Make sure you have all of the following components to hand before you start soldering:
+Make sure you have all the following components ready before you start soldering. 😊 Take the parts from the boxes and count them to ensure you don't forget anything!
 
-- 1 x PCB (Christmas tree design)
+- 1 x PCB (Christmas Tree Design)
 - 11 x LEDs
 - 1 x ESP32 (with pin headers)
 - 1 x Button
@@ -23,18 +21,17 @@ Make sure you have all of the following components to hand before you start sold
 
 ## Step-by-Step Instructions
 
-### Step 1: Preparing the Circuit Board
+### 1. Step: Preparing the PCB
 
-Start by preparing the circuit board. Make sure that you place the components according to the 
-markings on the circuit board.
+Start by preparing the PCB. Make sure to place the components according to the markings on the PCB. 🛠️
 
-![Image: Preparing the Circuit Board](/documentation/images/PCP.png)
+![Image: Preparing the PCB](/documentation/images/PCP.png)
 
 ---
 
-### Step 2: Soldering the Button
+### 2. Step: Soldering the Button
 
-Insert the button in the intended position and solder it in place.
+Place the button in the designated spot and solder it in place. 🔥 You can also place the button on the front side of the PCB if you prefer. In this case, it's the better option since the USB cable won't be in front of the button. But it's up to you where to place it. 😊
 
 <div style="display: flex; justify-content: space-around;">
   <img src="/documentation/images/Button_vorne.png" alt="Button front" width="200"/>
@@ -45,58 +42,64 @@ Insert the button in the intended position and solder it in place.
 
 ---
 
-### Step 3: Positioning the LEDs
+### 3. Step: Placing the LEDs
 
-Cut off the legs of the LEDs directly after the thick section, as shown in the picture. Use a side
-cutter to shorten the legs to the correct length so that the LED sits well on the board.
+Cut the legs of the LEDs right after the thick section, as shown in the picture. **Important:** Hold the LED legs firmly while cutting them to prevent them from flying around and injuring you or others. ⚠️
 
 <div style="display: flex; justify-content: space-around;">
   <img src="/documentation/images/LEDs.png" alt="LED Step 1" width="200"/>
-  <img src="/documentation/images/Seitenschneider.png" alt="Side cutter" width="200"/>
+  <img src="/documentation/images/Seitenschneider.png" alt="Wire cutters" width="200"/>
   <img src="/documentation/images/LED_Beine.png" alt="LED legs" width="200"/>
   <img src="/documentation/images/LED_Beine_Schneiden.png" alt="Cutting LED legs" width="200"/>
 </div>
 
-Insert the LEDs in the intended positions, ensuring that the flat side of each LED is placed on the
-flat side of the circuit board, as shown in the picture.
+❗❗❗ **Place the LEDs in the designated spots and make sure the flat side of each LED is placed on the flat side of the PCB.** ❗❗❗
 
 <div style="display: flex; justify-content: space-around;">
   <img src="/documentation/images/LED_richtig_Platziert.png" alt="LED correctly placed" width="200"/>
   <img src="/documentation/images/LED_falsch_Platziert.png" alt="LED incorrectly placed" width="200"/>
 </div>
 
-And solder them in place.
+Then bend the LED legs so they sit securely on the PCB, and only then solder them in place. 🛠️
+
+![Image: LED Bending](/documentation/images/LED_Biegung.png)
 
 ---
 
-### Step 4: Solder the Pin Headers (Pins) on the ESP32
+### 4. Step: Soldering the Pin Headers on the ESP32
 
-Insert the ESP32 at the appropriate points on the board.
+Then solder the **2x8 Pin Headers** first to the PCB, as shown in the image.
+
+![Image: 2x8PinHead](/documentation/images/2x8PinHead.png)
+
+---
+
+### 5. Step: Inserting the ESP32 into the Pin Headers
+
+Now, insert the pins of the ESP32 into the 2x8 Pin Headers and solder them in place. 🖤
+
+Make sure the **shorter legs** of the pin headers are on the ESP32 and the **longer legs** point downward. 🔩
 
 <div style="display: flex; justify-content: space-around;">
   <img src="/documentation/images/ESP_mit_Stiftleisten.png" alt="ESP with pin headers" width="200"/>
   <img src="/documentation/images/ESP_auf_dem_Baum.png" alt="ESP on the tree" width="200"/>
+  <img src="/documentation/images/ESP_PINS.gif" alt="ESP Pins GIF" width="200"/>
 </div>
 
-First, solder the pins of the ESP32.  
-Then set the ESP32 aside and solder the black pin holder on the circuit board.
+---
 
-![Image: Preparing the ESP32](/documentation/images/ESP_mit_Stiftleisten.png)
+### 6. Step: Finished Assembled PCB
+
+After you have successfully soldered all the components, your PCB should look like this:
+
+![Image: Finished Assembled PCB](/documentation/images/Baum_fertig.png)
 
 ---
 
-### Step 5: Fully Assembled Circuit Board
+## Congratulations! 🎉
 
-Once you have successfully soldered all the components, your circuit board should look like this.
+Now you have successfully completed the small project! You can change the order in which the lights blink by clicking the button once. If you press and hold the button, you can turn the lights on and off. 💡
 
-![Image: Fully Assembled Circuit Board](/documentation/images/Baum_fertig.png)
+Additionally, your Christmas tree now has an access point, which you can connect to. You can control the lights and change settings using your phone. 📱✨
 
 ---
-
-## Congratulations!
-
-You have now successfully completed the small project! You can change the order in which the lights flash
-by clicking the button once. If you press and hold the button, you can switch the lights on and off.
-
-In addition, your Christmas tree now has an access point that you can connect to. You can control the lights
-and change the settings via your mobile phone.
