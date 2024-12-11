@@ -31,7 +31,7 @@ Tools:
 
 ## Erstellung eigener Firmware
 1. Möglichkeit über die Standardinstallation (empfohlen)
-Für die Standard-Installation der WLED-Firmware gehe auf die Webseite: https://install.wled.me/ (in Microsoft Edge, Chrome oder einem anderen Chomium-basierten Browser) und folge den Installationsanweisungen.
+Für die Standard-Installation der WLED-Firmware gehe auf die Webseite: https://install.wled.me/ (in Microsoft Edge, Chrome oder einem anderen Chomium-basierten Browser) und folge den Installationsanweisungen.Um den Weihnachtsbaum richtig verwenden zu können, muss du auf der Konfigurationswebseite (die man erreicht, indem man sich mit dem WLAN Access Point des ESP verbindet und die Seite "http//4.3.2.1" im Browser aufruft) unter "Config" --> "LED Preferences" --> "Color Order" auf RGB und "Length" auf 11 stellen. Damit der Button bei kurzem Klick den Modus wechselt und bei langem Klick die LED's an/aus toggelt, folge bitte dieser Anleitung: https://kno.wled.ge/features/macros/
 2. Möglichkeit über Online-Konfigurator
 Es gibt einen Online Konfigurator, der von der Community zur Verfügung gestellt wird und mit dem man seine eigene WLED Firmware zusammenstellen kann. Dieser ist hier zu finden: https://wled-compile.github.io/. Hier kann man verschiedene Optionen an- und ausschalten und von der Community bereitgestellte Pakete installieren. Der Konfigurator verfügt auch über ein Installationstool, welches aus einem Browser (Microsoft Edge, Chrome oder einem anderen Chomium basierten Browser) heraus gestartet werden kann. (Alternativ siehe Möglichkeit 3)
 3. Möglichkeit über fertige Binarys (wird für das Weihnachtslöten 2024 verwendet)
@@ -69,7 +69,7 @@ Tools:
 
 ## Creating your own firmware
 1. option via the standard installation (recommended)
-For the standard installation of the WLED firmware, go to the website: https://install.wled.me/ (in Microsoft Edge, Chrome or another Chomium-based browser) and follow the installation instructions.
+For the standard installation of the WLED firmware, go to the website: https://install.wled.me/ (in Microsoft Edge, Chrome or another Chomium-based browser) and follow the installation instructions. To be able to use the Christmas tree correctly, you must go to the configuration website (which you can access by connecting to the ESP's WLAN access point and calling up the page ‘http//4.3.2.1’ in the browser) under ‘Config’ --> ‘LED Preferences’ --> ‘Colour Order’ and set ‘Length’ to RGB and 11. So that the button changes the mode with a short click and toggles the LEDs on/off with a long click, please follow these instructions: https://kno.wled.ge/features/macros/
 2. option via online configurator
 There is an online configurator provided by the community that you can use to create your own WLED firmware. This can be found here: https://wled-compile.github.io/. Here you can switch various options on and off and install packages provided by the community. The configurator also has an installation tool that can be started from a browser (Microsoft Edge, Chrome or another Chomium-based browser). (Alternatively, see option 3)
 3. option via ready-made binaries (will be used for Christmas soldering 2024)
