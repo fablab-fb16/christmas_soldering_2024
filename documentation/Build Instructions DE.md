@@ -54,15 +54,15 @@ Löte den Button nun fest. 🔥
 Falls du zum ersten Mal lötest und Hilfe brauchst, schau im [How to Solder Guide](/documentation/How%20to%20Solder.md) oder frag uns.
 
 <div style="display: flex; justify-content: space-around;">
-  <img src="/documentation/images/Button_vorne.png" alt="Button vorne" height="300"/>
-  <img src="/documentation/images/Button_hinten.png" alt="Button hinten" height="300"/>
+  <img src="/documentation/images/Button_vorne.png" alt="Button vorne" width="200"/>
+  <img src="/documentation/images/Button_hinten.png" alt="Button hinten" width="200"/>
 </div>
 
 
 <div style="display: flex; justify-content: space-around;">
-  <img src="/documentation/images/Button_Platz.png" alt="Button Lötplatz" height="300"/>
-  <img src="/documentation/images/Button_platziert.png" alt="Button richtig platziert" height="300"/>
-  <img src="/documentation/images/Button_Loetstellen.jpg" alt="Button Lötstellen" height="300"/>
+  <img src="/documentation/images/Button_Platz.png" alt="Button Lötplatz" width="200"/>
+  <img src="/documentation/images/Button_platziert.png" alt="Button richtig platziert" width="200"/>
+  <img src="/documentation/images/Button_Loetstellen.jpg" alt="Button Lötstellen" width="200"/>
 </div>
 
 ---
@@ -90,8 +90,8 @@ Setze die erste LED an der vorgesehenen Stellen ein und achte dabei darauf, dass
 ![Bild: LED Footprint Flach](/documentation/images/LED_Footprint_Flach.jpg)
 
 <div style="display: flex; justify-content: space-around;">
-  <img src="/documentation/images/LED_richtig_Platziert.png" alt="LED richtig platziert" height="300"/>
-  <img src="/documentation/images/LED_falsch_Platziert.png" alt="LED falsch platziert" height="300"/>
+  <img src="/documentation/images/LED_richtig_Platziert.png" alt="LED richtig platziert" width="200"/>
+  <img src="/documentation/images/LED_falsch_Platziert.png" alt="LED falsch platziert" width="200"/>
 </div>
 
 Dann biege die vier Beine der LED um, jeweils in die Richtung des benachbarten Löt-Pads (siehe Bilder unten), sodass sie fest auf der Platine sitzt. Zum Biegen kannst du z.B. einen kleinen Schlitz-Schraubendreher zur Hilfe nehmen.
@@ -104,8 +104,8 @@ Löte die umgebogenen Beine der LED nun an den Pads fest, wie auf dem Bild unten
 Wiederhole diese Schritte für alle weiteren LEDs. 🛠️
 
 <div style="display: flex; justify-content: space-around;">
-  <img src="/documentation/images/LED_Biegung.png" alt="LED Biegung" height="300"/>
-  <img src="/documentation/images/LED_Biegung_geloetet.jpg" alt="LED gelötet" height="300"/>
+  <img src="/documentation/images/LED_Biegung.png" alt="LED Biegung" width="200"/>
+  <img src="/documentation/images/LED_Biegung_geloetet.jpg" alt="LED gelötet" width="200"/>
 </div>
 ---
 
@@ -123,9 +123,9 @@ Löte dann die beiden **2x8 Pin Header** auf die Platine, wie im Bild gezeigt.
 Stecke jetzt den ESP32 mit seinen beiden Pin-Leisten in die inneren Reihen der 2x8 Pin-Header. Die USB-C Buchse muss zur Spitze des Baumes zeigen. 🔝
 
 <div style="display: flex; justify-content: space-around;">
-  <img src="/documentation/images/ESP_mit_Stiftleisten.png" alt="ESP_mit_Stiftleisten" height="300"/>
-  <img src="/documentation/images/ESP_PINS.gif" alt="ESP Pins GIF" height="300"/>
-  <img src="/documentation/images/ESP_auf_dem_Baum.png" alt="ESP auf dem Baum" height="300"/>
+  <img src="/documentation/images/ESP_mit_Stiftleisten.png" alt="ESP_mit_Stiftleisten" width="200"/>
+  <img src="/documentation/images/ESP_PINS.gif" alt="ESP Pins GIF" width="200"/>
+  <img src="/documentation/images/ESP_auf_dem_Baum.png" alt="ESP auf dem Baum" width="200"/>
 </div>
 
 > [!IMPORTANT]
@@ -137,8 +137,8 @@ Stecke jetzt den ESP32 mit seinen beiden Pin-Leisten in die inneren Reihen der 2
 Nun kannst du bequem alle 16 Pins des ESP-Boards an die Pin-Leisten löten. Achte dabei darauf, mit dem Lötkolben keine Komponenten auf dem ESP-Board zu beschädigen. Löte dafür am besten immer mit dem Lötkolben von außen und nicht über dem ESP-Board.
 
 <div style="display: flex; justify-content: space-around;">
-  <img src="/documentation/images/ESP_Loeten_right.jpg" alt="ESP Löten richtig" height="400"/>
-  <img src="/documentation/images/ESP_Loeten_wrong.jpg" alt="ESP Löten falsch" height="400"/>
+  <img src="/documentation/images/ESP_Loeten_right.jpg" alt="ESP Löten richtig" width="200"/>
+  <img src="/documentation/images/ESP_Loeten_wrong.jpg" alt="ESP Löten falsch" width="200"/>
 </div>
 
 > [!NOTE]
