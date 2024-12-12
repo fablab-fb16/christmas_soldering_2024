@@ -97,7 +97,8 @@ Setze die erste LED an der vorgesehenen Stellen ein und achte dabei darauf, dass
 Dann biege die vier Beine der LED um, jeweils in die Richtung des benachbarten Löt-Pads (siehe Bilder unten), sodass sie fest auf der Platine sitzt. Zum Biegen kannst du z.B. einen kleinen Schlitz-Schraubendreher zur Hilfe nehmen.
 
 > [!CAUTION]
-> ❗ Kontrolliere nun nochmal die korrekte Einbaurichtung der LED ❗ Flach auf flach ❗
+> ❗ Kontrolliere nun nochmal die korrekte Einbaurichtung der LED ❗
+> Flach auf flach!
 
 Löte die umgebogenen Beine der LED nun an den Pads fest, wie auf dem Bild unten zu sehen (NICHT an den Löchern, durch die die Beinchen gesteckt sind).
 
@@ -134,11 +135,13 @@ Stecke jetzt den ESP32 mit seinen beiden Pin-Leisten in die inneren Reihen der 2
 ![Bild: Pin-Leiste Orientierung](/documentation/images/ESP_aufstecken_1.jpg)
 ![Bild: ESP Aufgesteckt](/documentation/images/ESP_aufstecken_3.jpg)
 
-Nun kannst du bequem alle 16 Pins des ESP-Boards an die Pin-Leisten löten. Achte dabei darauf, mit dem Lötkolben keine Komponenten auf dem ESP-Board zu beschädigen. Löte dafür am besten immer mit dem Lötkolben von außen und nicht über dem ESP-Board.
+Nun kannst du bequem alle 16 Pins des ESP-Boards an die Pin-Leisten löten. 🔥
+
+Achte dabei darauf, mit dem Lötkolben keine Komponenten auf dem ESP-Board zu beschädigen. Löte dafür am besten immer mit dem Lötkolben von außen und nicht über dem ESP-Board.
 
 <div style="display: flex; justify-content: space-around;">
-  <img src="/documentation/images/ESP_Loeten_right.jpg" alt="ESP Löten richtig" width="200"/>
-  <img src="/documentation/images/ESP_Loeten_wrong.jpg" alt="ESP Löten falsch" width="200"/>
+  <img src="/documentation/images/ESP_Loeten_right.jpg" alt="ESP Löten richtig" width="300"/>
+  <img src="/documentation/images/ESP_Loeten_wrong.jpg" alt="ESP Löten falsch" width="300"/>
 </div>
 
 > [!NOTE]
@@ -159,7 +162,7 @@ Nachdem du alle Komponenten erfolgreich gelötet hast, sollte deine Platine wie 
 
 ---
 
-### 6. Schritt: WLED Software flashen
+### 6. Schritt: Software flashen
 
 <!-- > [!IMPORTANT]
 > Dieser Schritt ist nur nötig, wenn du beim Weihnachtslöten bist oder dir den Bausatz selbst zusammengestellt hast. Wenn du einen vorkonfektionierten Bausatz erhalten hast, ist dein ESP schon mit der Software geflasht und du kannst diesen Schritt überspringen. -->
@@ -180,6 +183,12 @@ Zusätzlich hat dein Weihnachtsbaum einen WLAN Access Point, mit dem du dich ver
 - Falls dein Smartphone dies nicht tut, besuche `4.3.2.1` in deinem Internet Browser.
 
 Über dein Handy kannst du nun die Lichter steuern und die Einstellungen ändern. 📱✨
+
+Alternativ gibt's auch eine App:
+
+<a href='https://play.google.com/store/apps/details?id=ca.cgagnier.wlednativeandroid&utm_source=github&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' height='80'/></a>
+
+<a href='https://apps.apple.com/us/app/wled-native/id6446207239'><img alt='Get it on Apple App Store' src='https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Download_on_the_App_Store_Badge.svg/320px-Download_on_the_App_Store_Badge.svg.png' height='50'/></a>
 
 ---
 
