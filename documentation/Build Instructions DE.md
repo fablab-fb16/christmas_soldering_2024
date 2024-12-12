@@ -43,27 +43,27 @@ Ein Bild der fertig gelöteten Platine zur Orientierung findest du in [Schritt 5
 
 ### 1. Schritt: Löten des Buttons
 
-Setze den Button an der vorgesehenen Stelle (SW1) ein. Die Markierung ist auf der Rückseite.
+Setze den Button an der vorgesehenen Stelle (SW1) ein. Die Markierung ist auf der Rückseite der Platine.
 
 > [!NOTE]
 > Du kannst in diesem Fall den Button auch auf der Vorderseite der Platine platzieren, wenn du möchtest. Auf der Rückseite kann das USB Kabel später vor dem Button liegen und stören. Bei diesem Bauteil kannst du selbst entscheiden, auf welche Seite du es platzierst. 😊
 
-Nach dem Aufstecken, biege die Beinchen des Buttons etwas nach Innen um, sodass er beim Umdrehen der Platine nicht herausfallen kann. Löte den Button nun fest. 🔥
+<!-- Nach dem Aufstecken, biege die Beinchen des Buttons etwas nach Innen um, sodass er beim Umdrehen der Platine nicht herausfallen kann.  -->
+Löte den Button nun fest. 🔥
 
 Falls du zum ersten Mal lötest und Hilfe brauchst, schau im [How to Solder Guide](/documentation/How%20to%20Solder.md) oder frag uns.
 
 <div style="display: flex; justify-content: space-around;">
-  <img src="/documentation/images/Button_vorne.png" alt="Button vorne" width="200"/>
-  <img src="/documentation/images/Button_hinten.png" alt="Button hinten" width="200"/>
+  <img src="/documentation/images/Button_vorne.png" alt="Button vorne" height="300"/>
+  <img src="/documentation/images/Button_hinten.png" alt="Button hinten" height="300"/>
 </div>
 
 
 <div style="display: flex; justify-content: space-around;">
-  <img src="/documentation/images/Button_Platz.png" alt="Button Lötplatz" width="200"/>
-  <img src="/documentation/images/Button_platziert.png" alt="Button richtig platziert" width="200"/>
+  <img src="/documentation/images/Button_Platz.png" alt="Button Lötplatz" height="300"/>
+  <img src="/documentation/images/Button_platziert.png" alt="Button richtig platziert" height="300"/>
+  <img src="/documentation/images/Button_Loetstellen.jpg" alt="Button Lötstellen" height="300"/>
 </div>
-
-#TBD: Add image of solder joints of button
 
 ---
 
@@ -87,53 +87,62 @@ Setze die erste LED an der vorgesehenen Stellen ein und achte dabei darauf, dass
 
 <!-- Abgeflachte Seite der Markierung auf dem Board muss mit flacher Seite der LED übereinstimmen. -->
 
+![Bild: LED Footprint Flach](/documentation/images/LED_Footprint_Flach.jpg)
+
 <div style="display: flex; justify-content: space-around;">
-  <img src="/documentation/images/LED_richtig_Platziert.png" alt="LED richtig platziert" width="200"/>
-  <img src="/documentation/images/LED_falsch_Platziert.png" alt="LED falsch platziert" width="200"/>
+  <img src="/documentation/images/LED_richtig_Platziert.png" alt="LED richtig platziert" height="300"/>
+  <img src="/documentation/images/LED_falsch_Platziert.png" alt="LED falsch platziert" height="300"/>
 </div>
 
-#TBD: more images of markings on PCB...
-
-Dann biege die vier Beine der LED um, jeweils in die Richtung des benachbarten Löt-Pads (siehe Bild unten), sodass sie fest auf der Platine sitzt. Zum Biegen kannst du z.B. einen kleinen Schlitz-Schraubendreher zur Hilfe nehmen.
+Dann biege die vier Beine der LED um, jeweils in die Richtung des benachbarten Löt-Pads (siehe Bilder unten), sodass sie fest auf der Platine sitzt. Zum Biegen kannst du z.B. einen kleinen Schlitz-Schraubendreher zur Hilfe nehmen.
 
 > [!CAUTION]
-> ❗ Kontrolliere nun nochmal die korrekte Einbaurichtung der LED ❗
+> ❗ Kontrolliere nun nochmal die korrekte Einbaurichtung der LED ❗ Flach auf flach ❗
 
-Löte die umgebogenen Beine der LED nun fest, wie auf dem Bild unten zu sehen. 🛠️ Wiederhole diese Schritte für alle weiteren LEDs.
+Löte die umgebogenen Beine der LED nun an den Pads fest, wie auf dem Bild unten zu sehen (NICHT an den Löchern, durch die die Beinchen gesteckt sind).
 
-![Bild: LED Biegung](/documentation/images/LED_Biegung.png)
+Wiederhole diese Schritte für alle weiteren LEDs. 🛠️
 
+<div style="display: flex; justify-content: space-around;">
+  <img src="/documentation/images/LED_Biegung.png" alt="LED Biegung" height="300"/>
+  <img src="/documentation/images/LED_Biegung_geloetet.jpg" alt="LED gelötet" height="300"/>
+</div>
 ---
 
-### 3. Schritt: Stiftleisten (Pins) auf dem ESP32 löten
+### 3. Schritt: 2x8 Pin-Header auf die Platine löten
 
 Löte dann die beiden **2x8 Pin Header** auf die Platine, wie im Bild gezeigt.
 
-![Bild: 2x8PinHead](/documentation/images/2x8PinHead.png)
-
-#TBD add image of back side to show solder joints
+![Bild: 2x8PinHeader](/documentation/images/2x8PinHead.png)
+![Bild: 2x8PinHeader vorne](/documentation/images/2x8PinHead_Vorderseite.jpg)
 
 ---
 
-### 4. Schritt: ESP32 in die Pin Header stecken
+### 4. Schritt: ESP32 in die Pin-Header stecken
 
-Stecke jetzt die beiden Pin-Leisten des ESP32 mit der langen Seite in die inneren Reihen der 2x8 Pin Header. Stecke nun das ESP-Board mit der USB Buchse Richtung Baumspitze auf die nach oben stehenden kurzen Beine der Pin-Leisten. 🖤
-
-> [!IMPORTANT]
->Achte darauf, dass die **langen Beine** nach unten zeigen und die **kurzen Beine** der Pin-Leisten am ESP-Board sind.
-
-Nun kannst du bequem alle 16 Pins des ESP-Boards an die Pin Leisten löten. Achte dabei darauf, mit dem Lötkolben keine Komponenten auf dem Board zu beschädigen.
+Stecke jetzt den ESP32 mit seinen beiden Pin-Leisten in die inneren Reihen der 2x8 Pin-Header. Die USB-C Buchse muss zur Spitze des Baumes zeigen. 🔝
 
 <div style="display: flex; justify-content: space-around;">
-  <img src="/documentation/images/ESP_mit_Stiftleisten.png" alt="ESP_mit_Stiftleisten" width="200"/>
-  <img src="/documentation/images/ESP_auf_dem_Baum.png" alt="ESP auf dem Baum" width="200"/>
-  <img src="/documentation/images/ESP_PINS.gif" alt="ESP Pins GIF" width="200"/>
+  <img src="/documentation/images/ESP_mit_Stiftleisten.png" alt="ESP_mit_Stiftleisten" height="300"/>
+  <img src="/documentation/images/ESP_PINS.gif" alt="ESP Pins GIF" height="300"/>
+  <img src="/documentation/images/ESP_auf_dem_Baum.png" alt="ESP auf dem Baum" height="300"/>
 </div>
 
-#TBD: add images of Schritte des Aufsteckens
+> [!IMPORTANT]
+>Achte darauf, dass die **langen Beine** der Pin-Leisten nach unten in den Pin-Header zeigen und die **kurzen Beine** am ESP-Board sind.
+
+![Bild: Pin-Leiste Orientierung](/documentation/images/ESP_aufstecken_1.jpg)
+![Bild: ESP Aufgesteckt](/documentation/images/ESP_aufstecken_3.jpg)
+
+Nun kannst du bequem alle 16 Pins des ESP-Boards an die Pin-Leisten löten. Achte dabei darauf, mit dem Lötkolben keine Komponenten auf dem ESP-Board zu beschädigen. Löte dafür am besten immer mit dem Lötkolben von außen und nicht über dem ESP-Board.
+
+<div style="display: flex; justify-content: space-around;">
+  <img src="/documentation/images/ESP_Loeten_right.jpg" alt="ESP Löten richtig" height="400"/>
+  <img src="/documentation/images/ESP_Loeten_wrong.jpg" alt="ESP Löten falsch" height="400"/>
+</div>
 
 > [!NOTE]
-> Nach dem Löten lässt sich das ESP Board trotzdem einfach wieder herausziehen, z.B. falls es mal getauscht werden muss (defekt) oder du es für ein anderes Projekt verwenden willst.
+> Nach dem Löten lässt sich das ESP-Board trotzdem einfach wieder herausziehen, z.B. falls es mal getauscht werden muss (defekt) oder du es für ein anderes Projekt verwenden willst.
 
 ---
 
@@ -141,9 +150,9 @@ Nun kannst du bequem alle 16 Pins des ESP-Boards an die Pin Leisten löten. Acht
 
 Nachdem du alle Komponenten erfolgreich gelötet hast, sollte deine Platine wie folgt aussehen:
 
-![Bild: Fertig montierte Platine](/documentation/images/Baum_fertig.png)
-
-#TBD: add image of Back side too
+<!-- ![Bild: Fertig montierte Platine](/documentation/images/Baum_fertig.png) -->
+![Bild: Fertig montierte Platine](/documentation/images/Platine_fertig_vorne.jpg)
+![Bild: Fertig montierte Platine](/documentation/images/Platine_fertig_hinten.jpg)
 
 > [!IMPORTANT]
 > Die USB-C Buchse des ESP muss nach oben zur Baumspitze zeigen. Falls nicht, ziehe den ESP ab und stecke ihn richtigherum wieder auf.
@@ -155,7 +164,7 @@ Nachdem du alle Komponenten erfolgreich gelötet hast, sollte deine Platine wie 
 <!-- > [!IMPORTANT]
 > Dieser Schritt ist nur nötig, wenn du beim Weihnachtslöten bist oder dir den Bausatz selbst zusammengestellt hast. Wenn du einen vorkonfektionierten Bausatz erhalten hast, ist dein ESP schon mit der Software geflasht und du kannst diesen Schritt überspringen. -->
 
-Gehe nun zum Flashen der Software zur **"Flash-Station"**, dort wird die WLED Software auf den Mikrocontroller gespielt. Ohne die Software leuchten die LEDs nur blau... sehr blau.
+Gehe nun zum Flashen der Software zur **"Flash-Station"**, dort wird die WLED Software auf den Mikrocontroller gespielt. Ohne die Software leuchten die LEDs nur blau... sehr blau. 🔵
 
 ---
 
@@ -167,7 +176,7 @@ Du kannst die Reihenfolge und Farben, in denen die Lichter blinken, ändern, ind
 
 Zusätzlich hat dein Weihnachtsbaum einen WLAN Access Point, mit dem du dich verbinden kannst. Die Zugangsdaten hast du beim flashen auf einem Zettel bekommen.
 - Verbinde dein Smartphone mit dem WLAN des Baumes. (WLAN Name z.B. `WLED-AP-c352c7`)
-- Entweder dein Smartphone zeigt nach dem Verbinden von selbst eine Meldung an, auf die du klicken musst um zu den Licht-Einstellungen zu kommen
+- Entweder dein Smartphone zeigt nach dem Verbinden von selbst eine Meldung an, auf die du klicken musst um zu den Licht-Einstellungen zu kommen...
 - Falls dein Smartphone dies nicht tut, besuche `4.3.2.1` in deinem Internet Browser.
 
 Über dein Handy kannst du nun die Lichter steuern und die Einstellungen ändern. 📱✨
@@ -181,7 +190,7 @@ Jetzt hast du das kleine Projekt erfolgreich abgeschlossen!
 Falls du mehr mit dem Baum und WLED machen möchtest, hier ein paar Inspirationen:
 - Synchronisiere das Blinken mehrere Bäume über WLAN (WLED UDP Sync) [DE](https://wled-faq.github.io/#tab5faq4) / [EN](https://kno.wled.ge/interfaces/udp-notifier/)
 - anderes Standard-Blinkmuster / Farben beim Anstecken des Baumes einstellen (Preset mit ID erstellen, Preset ID in den `LED Preferences` bei `Apply Preset on Boot` hinterlegen)
-- LEDs zu Musik blinken lassen ("audioreactive", braucht zusätzliches Mikrofon) [DE](https://wled-faq.github.io/#tab5faq4) / [EN](https://kno.wled.ge/advanced/audio-reactive/)
+- LEDs zu Musik blinken lassen ("audioreactive", braucht zusätzliches Mikrofon, kann über freie Steckplätze auf den Pin-Headern direkt angeschlossen werden) [DE](https://wled-faq.github.io/#tab5faq4) / [EN](https://kno.wled.ge/advanced/audio-reactive/)
 - In Smart Home (Home Assistant) einbinden [EN](https://kno.wled.ge/advanced/home-automation/)
 - ... (google for more)
 
