@@ -28,3 +28,12 @@ Note: If JLC contacts you after ordering because of issues with the footprint of
 The LED footprint is custom made for easier soldering and therefore uncommon.
 
 To order at different manufacurers, you need to create production files form the kicad project by yourself.
+
+# ESP32 Pinout
+
+- GPIO0: LED Data Signal
+- GPIO2: Button Input
+
+All other Pins are free to use for additional stuff.
+
+All pins are broken out to the second row of the female pin header, so you can easily add hardware with jumper cables.

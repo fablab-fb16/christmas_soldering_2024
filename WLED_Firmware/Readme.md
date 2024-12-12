@@ -2,6 +2,8 @@
 
 ** English Version below **
 
+Das Repo unserer customized WLED Variante findest du [hier](https://github.com/fablab-fb16/WLED_Christmas_2024).
+
 ## Verwendung des InstallScriptChristmasSoldering.sh
 ### Für Anwender / Teilnehmer am Weihnachtslöten
 1. ESP einstecken
@@ -39,6 +41,8 @@ Wenn du eine fertig kompilierte Binärdatei hast (z.B. über den Online Konfigur
 
 ---------------------------------------------------------------------------
 ** English Version **
+
+Find the code of our customized WLED version [here](https://github.com/fablab-fb16/WLED_Christmas_2024).
 
 ## Use of InstallScriptChristmasSoldering.sh
 ### For users / participants in Christmas soldering
