@@ -51,4 +51,4 @@ This kit was developed for a soldering workshop and therefore to be solder-begin
 
 Feel free to use it for your own soldering workshops. If you got ideas for improvement or feedback, please let us know e.g. via a github issue or email at ![email address image](/documentation/images/email.png)
 
-For getting a large amount of ESPs flashed efficiently, we developed a flash script plus the support to print the unique SSID+PW of each ESP on small labels with Brother QL Label Printers directly after flashing. Find instructions for it [here](/WLED_Firmware/Readme.md). This way, everyone at the event knows which Wifi Access Point belongs to his Blinking Tree.
+For getting a large amount of ESPs flashed efficiently, we developed a flash script plus the support to print the unique SSID+PW of each ESP on small labels with Brother QL Label Printers directly after flashing. Find instructions for it [here](/WLED_Firmware/Readme.md). This way, everyone at the event knows which Wifi Access Point belongs to the own Blinking Tree.

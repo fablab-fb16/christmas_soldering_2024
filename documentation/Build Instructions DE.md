@@ -41,14 +41,20 @@ Wir führen dich nun Schritt für Schritt durch jedes Bauteil.
 
 ### 1. Schritt: Löten des Buttons
 
-Setze den Button an der vorgesehenen Stelle (SW1) ein und löte ihn fest. 🔥
+Setze den Button an der vorgesehenen Stelle (SW1) ein. Die Markierung ist auf der Rückseite.
+
+> [!NOTE]
+> Du kannst in diesem Fall den Button auch auf der Vorderseite der Platine platzieren, wenn du möchtest. Auf der Rückseite kann das USB Kabel später vor dem Button liegen und stören. Bei diesem Bauteil kannst du selbst entscheiden, auf welche Seite du es platzierst. 😊
+
+Biege die Beinchen des Buttons etwas nach Innen um, sodass er beim Umdrehen der Platine nicht herausfallen kann. Löte den Button nun fest. 🔥
+
+Falls du zum ersten Mal lötest und Hilfe brauchst, schau im [How to Solder Guide](/documentation/How%20to%20Solder.md) oder frag uns.
 
 <div style="display: flex; justify-content: space-around;">
   <img src="/documentation/images/Button_vorne.png" alt="Button vorne" width="200"/>
   <img src="/documentation/images/Button_hinten.png" alt="Button hinten" width="200"/>
 </div>
 
-Du kannst den Button auch auf der Vorderseite der Platine platzieren, wenn du möchtest. In diesem Fall ist das der bessere Platz, da das USB-Kabel nicht vor dem Button liegt. Aber du kannst selbst entscheiden, auf welche Seite du ihn platzierst. 😊
 
 <div style="display: flex; justify-content: space-around;">
   <img src="/documentation/images/Button_Platz.png" alt="Button Lötplatz" width="200"/>
