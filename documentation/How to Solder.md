@@ -2,7 +2,7 @@
 
 1. Place component on the side of the board, where the marking is.
 2. Flip the board.
-3. Heat the joint (pad on the board and component leg) with the soldering iron for ~2 seconds.
+3. Heat the **pad on the board and component leg** with the soldering iron for ~2 seconds.
 4. Add solder to the joint. It's the right amount of solder if it forms a cone (see images below).
 5. Remove the solder.
 6. Remove the soldering iron.
