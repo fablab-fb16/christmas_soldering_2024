@@ -6,3 +6,6 @@ WLED_Firmware/label_printer/test_label.png
 pcb_christmas_soldering_kit/fp-info-cache
 
 pcb_christmas_soldering_kit/fp-lib-table
+
+.DS_Store
+**/.DS_Store
