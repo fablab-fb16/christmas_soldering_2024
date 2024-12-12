@@ -35,6 +35,8 @@ Festgelötet wird jedes Bauteil dann auf der jeweils gegenüberliegenden Seite d
 
 Wir führen dich nun Schritt für Schritt durch jedes Bauteil.
 
+Ein Bild der fertig gelöteten Platine zur Orientierung findest du in [Schritt 5: Fertige Platine](#5-schritt-fertig-montierte-platine).
+
 ![Bild: Vorbereitung der Platine](/documentation/images/PCP.png)
 
 ---
@@ -46,7 +48,7 @@ Setze den Button an der vorgesehenen Stelle (SW1) ein. Die Markierung ist auf de
 > [!NOTE]
 > Du kannst in diesem Fall den Button auch auf der Vorderseite der Platine platzieren, wenn du möchtest. Auf der Rückseite kann das USB Kabel später vor dem Button liegen und stören. Bei diesem Bauteil kannst du selbst entscheiden, auf welche Seite du es platzierst. 😊
 
-Biege die Beinchen des Buttons etwas nach Innen um, sodass er beim Umdrehen der Platine nicht herausfallen kann. Löte den Button nun fest. 🔥
+Nach dem Aufstecken, biege die Beinchen des Buttons etwas nach Innen um, sodass er beim Umdrehen der Platine nicht herausfallen kann. Löte den Button nun fest. 🔥
 
 Falls du zum ersten Mal lötest und Hilfe brauchst, schau im [How to Solder Guide](/documentation/How%20to%20Solder.md) oder frag uns.
 
@@ -61,11 +63,15 @@ Falls du zum ersten Mal lötest und Hilfe brauchst, schau im [How to Solder Guid
   <img src="/documentation/images/Button_platziert.png" alt="Button richtig platziert" width="200"/>
 </div>
 
+#TBD: Add image of solder joints of button
+
 ---
 
 ### 2. Schritt: Platzierung der LEDs
 
-Schneide die Beine der LEDs direkt nach dem dicken Abschnitt ab, wie im Bild gezeigt. **Wichtig:** Halte die Beine der LEDs gut fest, während du sie schneidest, damit sie nicht durch den Raum fliegen und dich oder andere verletzen. ⚠️
+Schneide die Beine aller 11 LEDs direkt nach dem dicken Abschnitt ab, wie im Bild gezeigt.
+> [!TIP]
+>Halte die Beine der LEDs gut fest, während du sie schneidest, damit sie nicht durch den Raum fliegen und dich oder andere verletzen. ⚠️
 
 <div style="display: flex; justify-content: space-around;">
   <img src="/documentation/images/LEDs.png" alt="LED Schritt 1" width="200"/>
@@ -74,14 +80,26 @@ Schneide die Beine der LEDs direkt nach dem dicken Abschnitt ab, wie im Bild gez
   <img src="/documentation/images/LED_Beine_Schneiden.png" alt="LED Beine Schneiden" width="200"/>
 </div>
 
-❗❗❗ **Setze die LEDs an den vorgesehenen Stellen ein und achte dabei darauf, dass die flache Seite jeder LED auf die flache Seite der Platine platziert wird.** ❗❗❗
+Setze die erste LED an der vorgesehenen Stellen ein und achte dabei darauf, dass die flache Seite jeder LED auf die flache Seite der Markierung auf der Platine platziert wird.
+
+> [!CAUTION]
+> ❗ Achte auf die korrekte Einbaurichtung ❗
+
+<!-- Abgeflachte Seite der Markierung auf dem Board muss mit flacher Seite der LED übereinstimmen. -->
 
 <div style="display: flex; justify-content: space-around;">
   <img src="/documentation/images/LED_richtig_Platziert.png" alt="LED richtig platziert" width="200"/>
   <img src="/documentation/images/LED_falsch_Platziert.png" alt="LED falsch platziert" width="200"/>
 </div>
 
-Dann biege die Beine der LEDs um, sodass sie fest auf der Platine sitzen, und löte sie erst dann fest. 🛠️
+#TBD: more images of markings on PCB...
+
+Dann biege die vier Beine der LED um, jeweils in die Richtung des benachbarten Löt-Pads (siehe Bild unten), sodass sie fest auf der Platine sitzt. Zum Biegen kannst du z.B. einen kleinen Schlitz-Schraubendreher zur Hilfe nehmen.
+
+> [!CAUTION]
+> ❗ Kontrolliere nun nochmal die korrekte Einbaurichtung der LED ❗
+
+Löte die umgebogenen Beine der LED nun fest, wie auf dem Bild unten zu sehen. 🛠️ Wiederhole diese Schritte für alle weiteren LEDs.
 
 ![Bild: LED Biegung](/documentation/images/LED_Biegung.png)
 
@@ -89,23 +107,33 @@ Dann biege die Beine der LEDs um, sodass sie fest auf der Platine sitzen, und l�
 
 ### 3. Schritt: Stiftleisten (Pins) auf dem ESP32 löten
 
-Löte dann die **2x8 Pin Header** zuerst fest auf die Platine, wie im Bild gezeigt.
+Löte dann die beiden **2x8 Pin Header** auf die Platine, wie im Bild gezeigt.
 
 ![Bild: 2x8PinHead](/documentation/images/2x8PinHead.png)
+
+#TBD add image of back side to show solder joints
 
 ---
 
 ### 4. Schritt: ESP32 in die Pin Header stecken
 
-Stecke jetzt die Pins des ESP32 in die 2x8 Pin Header und löte sie fest. 🖤
+Stecke jetzt die beiden Pin-Leisten des ESP32 mit der langen Seite in die inneren Reihen der 2x8 Pin Header. Stecke nun das ESP-Board mit der USB Buchse Richtung Baumspitze auf die nach oben stehenden kurzen Beine der Pin-Leisten. 🖤
 
-Achte darauf, dass die **kurzen Beine** der Pin Header am ESP32 sind und die **langen Beine** nach unten zeigen. 🔩
+> [!IMPORTANT]
+>Achte darauf, dass die **langen Beine** nach unten zeigen und die **kurzen Beine** der Pin-Leisten am ESP-Board sind.
+
+Nun kannst du bequem alle 16 Pins des ESP-Boards an die Pin Leisten löten. Achte dabei darauf, mit dem Lötkolben keine Komponenten auf dem Board zu beschädigen.
 
 <div style="display: flex; justify-content: space-around;">
   <img src="/documentation/images/ESP_mit_Stiftleisten.png" alt="ESP_mit_Stiftleisten" width="200"/>
   <img src="/documentation/images/ESP_auf_dem_Baum.png" alt="ESP auf dem Baum" width="200"/>
   <img src="/documentation/images/ESP_PINS.gif" alt="ESP Pins GIF" width="200"/>
 </div>
+
+#TBD: add images of Schritte des Aufsteckens
+
+> [!NOTE]
+> Nach dem Löten lässt sich das ESP Board trotzdem einfach wieder herausziehen, z.B. falls es mal getauscht werden muss (defekt) oder du es für ein anderes Projekt verwenden willst.
 
 ---
 
@@ -115,6 +143,11 @@ Nachdem du alle Komponenten erfolgreich gelötet hast, sollte deine Platine wie 
 
 ![Bild: Fertig montierte Platine](/documentation/images/Baum_fertig.png)
 
+#TBD: add image of Back side too
+
+> [!IMPORTANT]
+> Die USB-C Buchse des ESP muss nach oben zur Baumspitze zeigen. Falls nicht, ziehe den ESP ab und stecke ihn richtigherum wieder auf.
+
 ---
 
 ### 6. Schritt: WLED Software flashen
@@ -122,7 +155,7 @@ Nachdem du alle Komponenten erfolgreich gelötet hast, sollte deine Platine wie 
 <!-- > [!IMPORTANT]
 > Dieser Schritt ist nur nötig, wenn du beim Weihnachtslöten bist oder dir den Bausatz selbst zusammengestellt hast. Wenn du einen vorkonfektionierten Bausatz erhalten hast, ist dein ESP schon mit der Software geflasht und du kannst diesen Schritt überspringen. -->
 
-Gehe nun zum Flashen der Software zur **"Flash-Station"**, dort wird die WLED Software auf den Mikrocontroller gespielt. Ohne die Software, leuchten die LEDs nur blau... Sehr blau.
+Gehe nun zum Flashen der Software zur **"Flash-Station"**, dort wird die WLED Software auf den Mikrocontroller gespielt. Ohne die Software leuchten die LEDs nur blau... sehr blau.
 
 ---
 
