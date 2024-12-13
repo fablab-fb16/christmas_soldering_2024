@@ -10,9 +10,9 @@ Stell sicher, dass du alle folgenden Komponenten zur Hand hast, bevor du mit dem
 
 - 1x PCB (Weihnachtsbaum-Design)
 - 11x LED
-- 1x ESP32 (mit 2x Stiftleiste, einreihig)
+- 1x ESP32 (mit 2x Pin-Leiste, einreihig)
 - 1x Button
-- 2x Stiftleiste 2x8 Pins
+- 2x Pin-Header 2x8 Pins
 - USB-C Kabel
 
 An zusätzlichem Werkzeug brauchst du:
